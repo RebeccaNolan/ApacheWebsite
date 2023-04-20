@@ -1,0 +1,26 @@
+<DOCTYPE! html>
+<head>
+	<title>
+	My New Webpage
+	</title>
+<style>
+body {
+background-color: cyan;
+text-align: center;
+padding-top:200px;
+}
+</style>
+<body>
+	<h1 align="center">Quote!</h1>
+	<button id="myBtn">Click for quote</button>
+</body>
+	<script>
+		var btn = document.getElementById("myBtn");
+		btn.addEventListener("click", myFunction)
+
+		function myFunction()
+		{
+			alert("Two things are infinite: the universe and human stupidity; and I'm not sure about the universe. - Albert Einstein");
+		}
+	</script>
+	</html>
